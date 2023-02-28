@@ -1,0 +1,14 @@
+.hello {
+    /* hex example */
+    color: #1100ff;
+}
+
+.goodbye {
+    /* rgb example */
+    color: rgb(100, 0, 127);
+}
+
+.again {
+    /* hsl example */
+    background-color: hsl(15, 82%, 56%);
+}
