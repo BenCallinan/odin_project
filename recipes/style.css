@@ -1,0 +1,31 @@
+body {
+    font-family: "Trebuchet MS", sans-serif
+}
+
+.head {
+    font-size: 100px;
+    color: rgb(100, 75, 0);
+    line-height: 0em;
+}
+
+a:link {text-decoration: none; color: black}
+
+a:visited {text-decoration: none; color: black; }
+
+a:hover {text-decoration: none; }
+
+a:active {text-decoration: none; }
+
+.recipes {
+    line-height: 2.5em;
+    float: center;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bush {
+    width: 700px;
+    height: 200px;
+}
+
