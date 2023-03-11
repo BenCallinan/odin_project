@@ -1,0 +1,40 @@
+.container {
+    padding: 0px;
+    text-align: center;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: #ffeead;
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+.container > div {
+    /* flex: 1;
+    /* flex-grow, flex-shrink, flex-basis */
+}
+
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+.container > .home {
+    background-color: #96ceb4;
+    padding: 10px;
+}
+
+.container > .search {
+    background-color: #ff6f69;
+    padding: 10px;
+    flex: 2;
+}
+
+.container > .logout {
+    background-color: #88d8b0;
+    padding: 10px;
+}
+
+.container > .profile {
+    background-color: #ff6f69;
+    padding: 10px;
+}
