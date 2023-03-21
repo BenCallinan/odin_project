@@ -8,6 +8,8 @@ body {
     flex-direction: column;
 }
 
+/* Header */
+
 .header {
     display: flex;
     align-items: center;
@@ -36,11 +38,13 @@ a {
     font-size: 18px;
 }
 
+/* Hero */
+
 .hero {
-    flex: 1;
+    flex: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background: #1F2937;
 }
 
@@ -48,18 +52,21 @@ a {
     display: flex;
     flex-direction: column;
     padding: 100px;
-    gap: 20px;
+    max-width: 300px;
+    margin: 16px;
 }
 
 .hero_main {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    padding-bottom: 16px;
 }
 
 .hero_secondary {
     color: #E5E7EB;
     font-size: 18px;
+    padding-bottom: 16px;
 }
 
 button {
@@ -75,10 +82,12 @@ button {
 .hero_image {
     background: gray;
     color: #E5E7EB;
-    width: 400px;
+    max-width: 300px;
     height: 100px;
     padding: 80px;
 }
+
+/* Content */ 
 
 .information {
     text-align: center;
@@ -88,36 +97,35 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin: 32px;
 }
 
 .info_content {
     display: flex;
     justify-content: center;
-    flex-shrink: 0;
-    flex-direction: row;
     gap: 52px;
+    margin: 32px;
 }
 
 .text {
     color: #1F2937;
     font-size: 18px;
-    gap: 32px;
 }
 
 .image {
     background: white;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-style: solid;
     border-radius: 10px;
     border-color: #3882F6;
-    gap: 32px;
-    padding: 16px;
 }
 
 .info {
     max-width: 200px;
 }
+
+/* Quote */
 
 .quote {
     display: flex;
@@ -128,7 +136,6 @@ button {
 }
 
 .quote_text {
-    max-width: 800px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;    
@@ -136,11 +143,12 @@ button {
 
 .thor {
     text-align: right;
-    max-width: 800px;
     font-size: 18px;
     font-weight: 700;
     color: #1F2937; 
 }
+
+/* Action */
 
 .action {
     display: flex;
@@ -154,13 +162,14 @@ button {
     border-radius: 5px;
     display: flex;
     gap: 16px;
-    padding: 16px;
+    padding: 32px;
     margin: 16px;
 }
 
 .action {
     display: flex;
     flex-direction: column;
+    margin: 32px;
 }
 
 .action_main {
@@ -178,7 +187,10 @@ button {
     border: solid;
     border-color: #F9FAF8;
     border-radius: 8px;
+    padding: 8px;
 }
+
+/* Footer */
 
 .footer {
     display: flex;
